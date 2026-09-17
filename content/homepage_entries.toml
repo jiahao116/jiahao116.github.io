@@ -1,0 +1,17 @@
+[miscellanea]
+intro = "Some informal notes on physics, mathematics, and machine learning."
+
+[[miscellanea.entries]]
+title = "André Weil and the Hodge Conjecture"
+date = "2026.09.10"
+url = "https://jiahao116.github.io/Articles/"
+description = "“The question posed by the ‘Hodge conjecture’ is a very natural one… Unfortunately, despite the word ‘conjecture’, as far as I know there is not the slightest reason to believe it; one would be doing geometers a service if the question could be settled by means of a counterexample.” — André Weil"
+
+[research_notes]
+intro = "Some research ideas and notes to be continued"
+
+[[research_notes.entries]]
+title = "Exact Entanglement Tradeoff under Gauge Fixing in Bacon–Shor Codes"
+date = "2026.03.06"
+url = "https://drive.google.com/file/d/1hzntHx9673Cs857ZCFvvFVCqxwmiwrBF"
+description = "The main result is: for an R × C Bacon–Shor code, after fixing t independent commuting gauge constraints and optimizing over all possible gauge-fixing choices, the exact worst-case tradeoff is **ΔE\\*_t = ⌈t / max(R − 1, C − 1)⌉**. The result covers all gauge fixings, including mixed non-CSS choices. Moreover, there exists a protocol that adds gauge constraints one by one and remains globally optimal for every t. At complete fixing, the result reaches *d_dressed − 1*."

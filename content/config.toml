@@ -1,0 +1,32 @@
+[site]
+title = "Jiahao Cao"
+description = "Personal website of Jiahao Cao."
+favicon = "/favicon.svg"
+
+[author]
+name = "Jiahao Cao"
+title = ""
+institution = ""
+avatar = "/cao.jpg"
+
+[social]
+email = "caojiahao116@gmail.com"
+
+[features]
+enable_likes = false
+enable_one_page_mode = false
+
+[i18n]
+enabled = false
+locales = ["en"]
+default_locale = "en"
+mode = "fixed"
+fixed_locale = "en"
+persist = false
+switcher = false
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"

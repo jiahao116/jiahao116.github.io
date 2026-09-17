@@ -1,0 +1,24 @@
+type = "about"
+title = "About"
+
+[profile]
+research_interests = [
+  "Quantum Information",
+  "Quantum Many-Body Physics",
+  "Machine Learning",
+  "Complexity Theory"
+]
+
+[[sections]]
+id = "miscellanea"
+type = "entries"
+title = "Miscellanea"
+source = "homepage_entries.toml"
+collection = "miscellanea"
+
+[[sections]]
+id = "research_notes"
+type = "entries"
+title = "Research Notes"
+source = "homepage_entries.toml"
+collection = "research_notes"
