@@ -191,7 +191,7 @@ def run_gui() -> None:
     entries_data = load_toml(ENTRIES_PATH)
 
     root = tk.Tk()
-    root.title("PRISM Homepage Editor")
+    root.title("Personal Website Editor")
     root.geometry("850x720")
 
     name_var = tk.StringVar(value=config["author"].get("name", ""))
@@ -376,7 +376,7 @@ def run_gui() -> None:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Local PRISM homepage editor")
+    parser = argparse.ArgumentParser(description="Local personal website editor")
     parser.add_argument("--check", action="store_true", help="validate editor-managed content without launching the GUI")
     args = parser.parse_args()
     if args.check:

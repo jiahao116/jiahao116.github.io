@@ -26,11 +26,8 @@ export default function Footer({ lastUpdated, lastUpdatedByLocale, defaultLocale
           <p className="text-xs text-neutral-500">
             {messages.footer.lastUpdated}: {resolvedLastUpdated}
           </p>
-          <p className="text-xs text-neutral-500 flex items-center">
-            <a href="https://github.com/xyjoey/PRISM" target="_blank" rel="noopener noreferrer">
-              {messages.footer.builtWithPrism}
-            </a>
-            <span className="ml-2">🚀</span>
+          <p className="text-xs text-neutral-500">
+            © {new Date().getFullYear()} Jiahao Cao
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-name: Deploy PRISM to GitHub Pages
+name: Deploy Jiahao Cao Website
 
 on:
   push:
