@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import './globals.css';
 import Navigation from '@/components/layout/Navigation';
 import Footer from '@/components/layout/Footer';
@@ -188,6 +189,12 @@ export default function RootLayout({
             />
           </LocaleProvider>
         </ThemeProvider>
+        <Script
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          type="module"
+          data-cf-beacon='{"token":"c4b4aca69faa427193bbd33b0ee38c18"}'
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
