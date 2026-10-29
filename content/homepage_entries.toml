@@ -1,5 +1,11 @@
 [miscellanea]
-intro = "Some informal notes on physics, mathematics, and machine learning."
+intro = "Some informal notes on physics and mathematics"
+
+[[miscellanea.entries]]
+title = "The Quantum Vacuum from Below"
+date = "2026.10.16"
+url = "https://jiahao116.github.io/Articles/the-quantum-vacuum-from-below.html"
+description = "Reading Volovik’s *The Universe in a Helium Droplet*. How momentum space topology protects emergent relativistic particles, and how the limits of low energy universality reveal the importance of microscopic physics in understanding our own quantum vacuum."
 
 [[miscellanea.entries]]
 title = "André Weil and the Hodge Conjecture"
