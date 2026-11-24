@@ -11,6 +11,7 @@ avatar = "/cao.jpg"
 
 [social]
 email = "caojiahao116@gmail.com"
+github = "https://github.com/jiahao116"
 
 [features]
 enable_likes = false
