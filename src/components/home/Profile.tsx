@@ -82,11 +82,6 @@ export default function Profile({ author, social, features, researchInterests }:
             href: social.orcid,
             icon: OrcidIcon,
         }] : []),
-        ...(social.github ? [{
-            name: 'GitHub',
-            href: social.github,
-            icon: Github,
-        }] : []),
         ...(social.linkedin ? [{
             name: 'LinkedIn',
             href: social.linkedin,
@@ -127,16 +122,30 @@ export default function Profile({ author, social, features, researchInterests }:
             </div>
 
             <div className="flex flex-wrap justify-center items-center gap-3 sm:gap-4 mb-6 relative px-2">
-                {social.email && (
-                    <a
-                        href={`mailto:${social.email}`}
-                        className="inline-flex items-center gap-2 text-sm text-neutral-600 dark:text-neutral-400 hover:text-accent transition-colors duration-200"
-                        aria-label={messages.profile.email}
-                    >
-                        <EnvelopeIcon className="h-5 w-5 shrink-0" />
-                        <span>{social.email}</span>
-                    </a>
-                )}
+                <div className="flex flex-col items-center gap-2">
+                    {social.email && (
+                        <a
+                            href={`mailto:${social.email}`}
+                            className="inline-flex items-center gap-2 text-sm text-neutral-600 dark:text-neutral-400 hover:text-accent transition-colors duration-200"
+                            aria-label={messages.profile.email}
+                        >
+                            <EnvelopeIcon className="h-5 w-5 shrink-0" />
+                            <span>{social.email}</span>
+                        </a>
+                    )}
+                    {social.github && (
+                        <a
+                            href={social.github}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 text-sm text-neutral-600 dark:text-neutral-400 hover:text-accent transition-colors duration-200"
+                            aria-label="GitHub"
+                        >
+                            <Github className="h-5 w-5 shrink-0" />
+                            <span>GitHub</span>
+                        </a>
+                    )}
+                </div>
 
                 {socialLinks.map((link) => {
                     const IconComponent = link.icon;
