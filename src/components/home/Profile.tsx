@@ -121,7 +121,7 @@ export default function Profile({ author, social, features, researchInterests }:
                 )}
             </div>
 
-            <div className="flex flex-wrap justify-center items-center gap-3 sm:gap-4 mb-6 relative px-2">
+            <div className="flex flex-col items-center gap-3 mb-6 relative px-2">
                 <div className="flex flex-col items-center gap-2">
                     {social.email && (
                         <a
